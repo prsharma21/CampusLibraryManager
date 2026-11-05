@@ -1,0 +1,20 @@
+PS C:\Priyanka\BigProject\AgenticAI\ProjectCode\CampusLibraryManager> python main.py
+Book: Python Programming by John Doe(ID IT12) -> late fee for 3 days: Rs 6
+Magazine: Python Monthly 111223 (ID IT34) -> late fee for 3 days: Rs 3
+DVD: Python in 60 Minutes (60 mins) (ID IT45) -> late fee for 3 days: Rs 15
+Phase 1:
+Item borrowed by Alice: Book: Python Programming by John Doe(ID IT12)
+Item borrowed by Alice: Magazine: Python Monthly 111223 (ID IT34)
+Item borrowed by Alice: DVD: Python in 60 Minutes (60 mins) (ID IT45)
+Item returned by Alice: DVD: Python in 60 Minutes (60 mins) (ID IT45)
+Item borrowed by Bob: DVD: Python in 60 Minutes (60 mins) (ID IT45)
+Could not borrow: Member has reached the maximum number of items
+Phase 2:
+Could not return: This item not borrowed by Bob
+Phase 3:
+Could not borrow: This item not available for borrowing by Alice
+Phase 4:
+Item returned by Alice: Book: Python Programming by John Doe(ID IT12)
+Late fee for Alice for returning book: Rs 4
+Total items created: 3
+PS C:\Priyanka\BigProject\AgenticAI\ProjectCode\CampusLibraryManager> 
